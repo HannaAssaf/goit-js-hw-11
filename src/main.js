@@ -56,5 +56,6 @@ form.addEventListener('submit', event => {
     })
     .finally(() => {
       loader.classList.add('hidden');
+      form.reset();
     });
 });
