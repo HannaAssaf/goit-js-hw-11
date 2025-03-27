@@ -19,6 +19,7 @@ form.addEventListener('submit', event => {
       position: 'topRight',
       color: '#ef4040',
       timeout: 3000,
+      iconUrl: './img/bi_x-octagon.svg',
     });
     return;
   }
@@ -36,6 +37,7 @@ form.addEventListener('submit', event => {
           position: 'topRight',
           color: '#ef4040',
           timeout: 3000,
+          iconUrl: './img/bi_x-octagon.svg',
         });
       } else {
         createElement(hits);
@@ -49,6 +51,7 @@ form.addEventListener('submit', event => {
         position: 'topRight',
         color: '#ef4040',
         timeout: 3000,
+        iconUrl: './img/bi_x-octagon.svg',
       });
     })
     .finally(() => {
