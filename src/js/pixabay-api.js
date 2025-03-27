@@ -20,7 +20,7 @@ export function showImg(value) {
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: true,
-    per_page: 21,
+    per_page: 9,
   };
 
   axios
